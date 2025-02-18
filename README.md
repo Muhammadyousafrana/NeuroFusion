@@ -2,11 +2,6 @@
 ![1](https://github.com/user-attachments/assets/c2cfd4e9-6d6d-4eeb-bee0-e84d0b9b8ad8)
 
 
-Here's a structured **README.md** file for your GitHub project:  
-
----
-
-```md
 # EEG Signal Summarization with Deep Learning  
 
 ## 🧠 Project Overview  
