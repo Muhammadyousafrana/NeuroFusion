@@ -17,31 +17,13 @@ This project focuses on processing EEG signals for summarization and classificat
 ## 📦 Installation  
 1. Clone the repository:  
    ```sh
-   git clone https://github.com/yourusername/your-repo-name.git
-   cd your-repo-name
+   git clone https://github.com/Muhammadyousafrana/NeuroFusion.git
    ```  
-2. Create a virtual environment and install dependencies:  
-   ```sh
-   python -m venv venv
-   source venv/bin/activate  # On Windows use: venv\Scripts\activate
-   pip install -r requirements.txt
-   ```  
+ 
 
 ## 📊 Dataset  
 This project uses the **DREAMER** dataset for EEG-based emotion recognition. You can download the dataset from [official sources](https://zenodo.org/records/546113). The dataset needs to be preprocessed before training.  
 
-## 🔧 Usage  
-### 1️⃣ Preprocess the Data  
-Run the preprocessing script to normalize and transform EEG signals:  
-```sh
-python preprocess.py
-```  
-
-### 2️⃣ Train the Model  
-Train the **ArjunViT** model on the EEG dataset:  
-```sh
-python train.py
-```  
 
 ### 3️⃣ Export Model to ONNX  
 Convert the trained model to **ONNX** format for optimized deployment:  
